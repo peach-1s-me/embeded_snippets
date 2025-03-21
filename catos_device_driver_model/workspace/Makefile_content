@@ -1,0 +1,5 @@
+subdir-y += src
+
+VERIFY_MSG = "RULE_DIR=$(RULE_DIR)"
+
+include $(RULE_DIR)/rules.mk

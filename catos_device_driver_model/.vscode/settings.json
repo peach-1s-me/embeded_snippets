@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "cat_device.h": "c"
+    }
+}
