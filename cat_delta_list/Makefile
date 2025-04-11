@@ -31,6 +31,7 @@ BIN_DIR_ORIG = $(OUT_DIR)/bin
 
 #要编译的文件
 obj-y += main.o
+obj-y += cat_dlist.o
 
 #处理要编译的文件
 OBJ_TARGET_ORIG = $(patsubst %,$(OBJ_DIR)/%,$(obj-y))
